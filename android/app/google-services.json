@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955056523350",
+    "firebase_url": "https://avengers-fb70e.firebaseio.com",
+    "project_id": "avengers-fb70e",
+    "storage_bucket": "avengers-fb70e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955056523350:android:9f064c07c6d042503653f7",
+        "android_client_info": {
+          "package_name": "com.example.flutter_notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955056523350-r5g2qumnjdu51r3jalve9solb4i7h3cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2QgktWYeOeObKXaw4YESI3kVYET5-75c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955056523350-r5g2qumnjdu51r3jalve9solb4i7h3cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
