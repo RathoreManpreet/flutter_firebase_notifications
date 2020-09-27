@@ -1,16 +1,23 @@
-# flutter_notification
+# flutter_firebase_notifications
 
-Flutter Notifications
+Flutter Firebase Notifications Installation
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Setup the firebase console settings
 
-A few resources to get you started if this is your first Flutter project:
+2. Then Setup the firebase settings in flutter
+   `android/build.gradle file`
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+   - `classpath 'com.google.gms:google-services:4.3.3'`
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Then Setup the firebase settings in flutter
+   `android/app/build.gradle file`
+    - defaultConfig add this code `multiDexEnabled true`
+   - `apply plugin: 'com.google.gms.google-services'`
+   - `implementation 'com.google.firebase:firebase-analytics:17.5.0'`
+   - `implementation 'com.google.firebase:firebase-messaging:20.2.4'`
+
+
+4. Install package `firebase_messaging` for flutter
+
